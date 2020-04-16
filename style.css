@@ -1,0 +1,90 @@
+/**
+ * fil: css/style.css
+ **/
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: 'work sans', sans-serif;
+    font-weight: 300;
+
+}
+
+/* dette er containeren for min div class*/
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* dette er baggrundsfarven for headeren */
+header {
+    background: #ffffff;
+}
+
+/* clear fix da header blev væk */
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* mit logos placering*/
+.logo {
+    float: left;
+    padding: 10px;
+}
+
+/* navigationsbar*/
+nav {
+    float: right;
+
+}
+
+/* navigationsbar*/
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: ;
+}
+
+/* navigationsbar*/
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+}
+
+/* navigationsbar*/
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* navigationsbar*/
+nav a:hover {
+    color: gold;
+}
+
+#container div {
+    height: auto;
+    width: auto;
+    overflow-y: scroll; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
